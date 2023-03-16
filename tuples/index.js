@@ -1,0 +1,13 @@
+"use strict";
+const arr = [12, "sdsd"];
+console.log(arr);
+const jsjs = ["1212", 1212, true, false];
+const skillsArr = ["dev", "qa"];
+// skillsArr.push("devops");
+console.log(skillsArr);
+const sas = ["sas", "sasa", "sasaass"];
+sas.push("asas");
+console.log(sas);
+const sasReadOnly = ["sas", "sasa", "sasaass"];
+// sasReadOnly.push("sasa");
+console.log(sasReadOnly);
