@@ -32,6 +32,7 @@ function getPost(req) {
         return data;
     });
 }
+// one vareble multiplay value
 var UserStatus;
 (function (UserStatus) {
     UserStatus["OnLine"] = "onLine";
