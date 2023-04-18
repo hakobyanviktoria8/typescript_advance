@@ -8,7 +8,7 @@ const obj1 = {
   },
 };
 
-interface objType {
+interface ObjType {
   name: string;
   email: string;
   age: number;
@@ -18,7 +18,7 @@ interface objType {
   };
 }
 
-const foo = (obj: objType) => {
+const foo = (obj: ObjType) => {
   return `Name: ${obj.name}, Email: ${obj.email}, Skills: ${obj.skills.dev} `;
 };
 

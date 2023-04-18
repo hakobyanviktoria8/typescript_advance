@@ -34,7 +34,7 @@ interface Post {
   };
 }
 
-function post(post: Post) {
+function post(post: Post): number | string | undefined {
   const p = post.id?.type;
   return p;
 }
